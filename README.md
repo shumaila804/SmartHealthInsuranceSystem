@@ -139,8 +139,6 @@ SmartHealthInsuranceSystem
 └── README.md
 ```
 
-```
-
 ---
 
 ## 🗄 Database Tables
