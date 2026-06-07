@@ -377,24 +377,47 @@ body{
 
         <div class="col-md-5">
 
-            <div class="card p-4 mb-4">
-                <h5 class="fw-bold">Claim Documents</h5>
+           <div class="card p-4 mb-4">
+    <h5 class="fw-bold">Claim Documents</h5>
 
-                <div class="doc-row">
-                    <span><i class="bi bi-file-earmark-pdf text-danger"></i> Medical Report.pdf</span>
-                    <span>245 KB <i class="bi bi-download text-primary"></i></span>
-                </div>
+    <div class="doc-row">
+        <span><i class="bi bi-file-earmark-pdf text-danger"></i> Medical Report.pdf</span>
+        <span>
+            245 KB
+            <a href="../download_report.php?claim_id=<?php echo $claim['claim_id']; ?>">
+                <i class="bi bi-download text-primary"></i>
+            </a>
+        </span>
+    </div>
 
-                <div class="doc-row">
-                    <span><i class="bi bi-file-earmark-pdf text-danger"></i> Hospital Bill.pdf</span>
-                    <span>320 KB <i class="bi bi-download text-primary"></i></span>
-                </div>
+    <div class="doc-row">
+        <span><i class="bi bi-file-earmark-pdf text-danger"></i> Hospital Bill.pdf</span>
+        <span>
+            320 KB
+            <a href="../download_report.php?claim_id=<?php echo $claim['claim_id']; ?>">
+                <i class="bi bi-download text-primary"></i>
+            </a>
+        </span>
+    </div>
 
-                <div class="doc-row">
-                    <span><i class="bi bi-file-earmark-image text-success"></i> X-Ray Report.jpg</span>
-                    <span>150 KB <i class="bi bi-download text-primary"></i></span>
-                </div>
-            </div>
+    <div class="doc-row">
+        <span><i class="bi bi-file-earmark-image text-success"></i> X-Ray Report.jpg</span>
+        <span>
+            150 KB
+            <a href="../download_report.php?claim_id=<?php echo $claim['claim_id']; ?>">
+                <i class="bi bi-download text-primary"></i>
+            </a>
+        </span>
+    </div>
+
+    <div class="text-center mt-3">
+        <a href="../download_report.php?claim_id=<?php echo $claim['claim_id']; ?>"
+           class="btn btn-primary">
+           Download Full Report
+        </a>
+    </div>
+
+</div>
 
             <div class="card p-4">
                 <h5 class="fw-bold">Claim Summary</h5>

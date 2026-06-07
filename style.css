@@ -1,0 +1,21 @@
+<?php
+
+$claim_id = isset($_GET['claim_id']) ? $_GET['claim_id'] : 'CLM1001';
+
+header("Content-Type: application/octet-stream");
+header("Content-Disposition: attachment; filename=Claim_Report_$claim_id.txt");
+
+echo "SMART HEALTH INSURANCE SYSTEM\n";
+echo "=====================================\n\n";
+
+echo "Claim ID: $claim_id\n";
+echo "Policy Number: POL1001\n";
+echo "Patient Name: Shumaila Arif\n";
+echo "Hospital Name: City Care Hospital\n";
+echo "Treatment Type: Surgery\n";
+echo "Claim Amount: PKR 150000\n";
+echo "Status: Approved\n";
+echo "Fraud Score: 20\n";
+
+exit();
+?>
