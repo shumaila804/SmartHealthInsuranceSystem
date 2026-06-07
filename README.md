@@ -193,39 +193,46 @@ Risk scores are generated and categorized as:
 
 ## 🚀 Installation
 
-### Step 1
-Clone the repository:
+### Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/shumaila804/SmartHealthInsuranceSystem.git
+```
 
-Step 2
+### Step 2: Move Project Folder
 
-Move project folder into:
+Move the project folder to:
 
+```text
 xampp/htdocs/
-Step 3
+```
 
-Start:
+### Step 3: Start XAMPP Services
 
-Apache
-MySQL
+Start the following services from the XAMPP Control Panel:
 
-from XAMPP Control Panel.
+* Apache
+* MySQL
 
-Step 4
+### Step 4: Import Database
 
-Import the database into phpMyAdmin.
+Open **phpMyAdmin** and import the project database file.
 
-Step 5
+### Step 5: Run the Project
 
-Open:
+Open the following URL in your browser:
 
+```text
 http://localhost/SmartHealthInsuranceSystem
-📈 Future Enhancements
-Machine Learning based fraud prediction
-Email notifications
-SMS alerts
-Payment gateway integration
-Mobile application
-Advanced analytics dashboard
+```
+
+---
+
+## 📈 Future Enhancements
+
+* 🤖 Machine Learning Based Fraud Prediction
+* 📧 Email Notification System
+* 📱 SMS Alert Service
+* 💳 Payment Gateway Integration
+* 📲 Mobile Application Support
+* 📊 Advanced Analytics Dashboard
