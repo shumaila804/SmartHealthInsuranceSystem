@@ -241,7 +241,7 @@ Open **phpMyAdmin** and import the project database file.
 Open the following URL in your browser:
 
 ```text
-http://localhost/SmartHealthInsuranceSystem
+(http://localhost/SMARTHEALTHINSURANCE/)
 ```
 
 ---
