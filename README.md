@@ -100,6 +100,9 @@ The project improves claim management efficiency, reduces manual workload, enhan
 ---
 
 ## 📂 Project Structure
+
+```text
+SmartHealthInsuranceSystem/
 │
 ├── admin/
 ├── hospital/
@@ -107,19 +110,22 @@ The project improves claim management efficiency, reduces manual workload, enhan
 ├── policyholder/
 │
 ├── includes/
-│ ├── header.php
-│ ├── sidebar.php
-│ └── auth.php
+│   ├── header.php
+│   ├── sidebar.php
+│   └── auth.php
 │
 ├── assets/
-│ ├── css/
-│ └── js/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── script.js
 │
 ├── dashboard.php
 ├── database.php
 ├── download_report.php
 ├── index.php
 └── README.md
+```
 
 ---
 
